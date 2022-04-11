@@ -8,8 +8,36 @@
 </head>
 <body>
     <h1 style="font-style: italic;">Contact Details</h1>
-    <ul style="font-style: italic;">Telephone number : +66(0) 84 7225 8686</ul>
-    <ul style="font-style: italic;">Facebook : facebook.com/TheFloatHouse</ul>
+    <ul style="font-style: italic; ">
+        <img src="telephone-call.png" width="25"/> Telephone number : +66(0) 84 7225 8686</ul>
+    <ul style="font-style: italic;">
+        <img src="facebook.png " width="25"/> Facebook : facebook.com/TheFloatHouse</ul>
     <a href="./index.html">Home page</a>
+
+    <h1 style="font-style: italic;">Booking Form</h1>
+<div class="Forms">
+<form action="https://formspree.io/f/xknyqolg"
+method="POST"
+>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="firstname" name="fname" placeholder="Name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lastname" name="lname" placeholder="Surname"><br>
+  <label for="ename">Email:</label><br>
+  <input type="email" id="email" name="ename" placeholder="Your email"><br>
+  <label for="contact">Contact:</label><br>
+  <input type="text" id="contact" name="cname" placeholder="Your number"><br>
+  <label for="date">Date:</label><br>
+  <input type="text" id="date" name="dname" placeholder="yyyy/mm/dd"><br>
+  <label for="time">Time:</label><br>
+  <input type="text" id="time" name="tname" placeholder=Time><br>
+</div>
+
+  
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
 </body>
 </html>
